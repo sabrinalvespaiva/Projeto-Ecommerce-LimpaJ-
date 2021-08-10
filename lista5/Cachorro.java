@@ -25,7 +25,7 @@ public class Cachorro extends Animal implements Sons{
 		this.deveCorrer = deveCorrer;
 	}
 
-	//metodo da interface
+	//metodo da ~interface
 	public void somAlto() {
 		System.out.println("AU AU AU");
 		
@@ -35,6 +35,12 @@ public class Cachorro extends Animal implements Sons{
 	public void somBaixo() {
 		System.out.println("au au au");
 		
+	}
+	
+	//polimorfismo 
+	@Override
+	public void emiteSom() {
+		System.out.println("au au au");	
 	}
 	
 

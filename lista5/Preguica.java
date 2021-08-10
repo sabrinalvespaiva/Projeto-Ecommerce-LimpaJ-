@@ -31,5 +31,11 @@ private boolean subirArvore;
 		System.out.println("gritinhos");
 	}
 	
+	//polimorfismo 
+			@Override
+			public void emiteSom() {
+				System.out.println("emitindo som da preguiça...");	
+			}
+	
 
 }

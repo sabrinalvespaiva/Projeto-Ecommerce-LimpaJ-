@@ -35,5 +35,9 @@ public abstract class Animal {
 	public void setSom(String som) {
 		this.som = som;
 	}
+	
+	public void emiteSom() {
+		
+	}
 
 }

@@ -36,5 +36,11 @@ public class Cavalo extends Animal implements Sons {
 		System.out.println("iiirrrrí, rilinchin");
 
 	}
+	
+	//polimorfismo 
+		@Override
+		public void emiteSom() {
+			System.out.println("iiirrrrí, rilinchin");	
+		}
 
 }

@@ -135,6 +135,7 @@ public class ProjetoEcommerceDocumentado {
 								System.out.println("NOTA FISCAL\t LIMPAJÁ\n");
 								System.out.println("ICMS DE 9% CALCULADO SOBRE O VALOR TOTAL DA COMPRA!");
 
+								//SUBTRAI UM DO CONTADOR PARA EXIBIR OS PRODUTOS E UNIDADES NA POSIÇÃO DO CONTADOR NA NOTA FISCAL
 								for (int i = contador - 1; i >= 0; i--) {
 									System.out.println(produtoCarrinho[i] + " Unidades: " + quantidadeCarrinho[i]);
 								}
